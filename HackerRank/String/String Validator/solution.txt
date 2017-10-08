@@ -1,7 +1,9 @@
 if __name__ == '__main__':
     s = raw_input()
     if len(s) < 1000:
-        
+    
+       #Use any() functon to check words
+       
         print any(c.isalnum() for c in s)
         print any(c.isalpha() for c in s)
         print any(c.isdigit() for c in s)
