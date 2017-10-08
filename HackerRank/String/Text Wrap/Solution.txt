@@ -1,0 +1,5 @@
+def wrap(string, max_width):
+    
+    str = textwrap.fill(string, max_width)
+    
+    return str
