@@ -1,0 +1,28 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+if __name__ == '__main__':
+    M = int(raw_input())
+    arr_M = map(int, raw_input().split())
+    
+    N = int(raw_input())
+    arr_N = map(int, raw_input().split())
+    arr_1 = set(arr_M)
+    arr_2 = set(arr_N)
+    
+    A = list(sorted(set.difference(arr_1, arr_2)))
+       
+    B = list(sorted(set.difference(arr_2, arr_1)))
+    
+    A_1 = set(A)
+    B_1 = set(B)
+    C = list(sorted(set.union(A_1,B_1)))
+    
+    for i in range(len(C)):
+        print C[i]
+    
+    
+    
+    
+    
+
+
+
