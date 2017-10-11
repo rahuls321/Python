@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import cmath
+eq = raw_input()
+print abs(complex(eq))
+A = cmath.phase(complex(eq))
+print A
