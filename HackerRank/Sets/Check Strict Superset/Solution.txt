@@ -1,0 +1,10 @@
+A = set(raw_input().split())
+k = int(raw_input())
+
+for i in range(k):
+    arr_1 = set(raw_input().split())
+    
+print A.issuperset(arr_1)
+
+
+    
