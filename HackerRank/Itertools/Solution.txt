@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from itertools import product
+A = map(int, list(raw_input().split()))
+B = map(int, list(raw_input().split()))
+
+C = list(product(*(A,B)))
+print " ".join(map(str,C))
